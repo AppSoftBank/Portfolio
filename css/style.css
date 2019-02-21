@@ -1,0 +1,251 @@
+#craeteleague{
+padding:0;
+}
+.innerleague label {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.imagefile {
+    width: 100%;
+}/* Filterable Portfolio Stylesheet */
+
+
+/* Simple Reset
+------------------------------------------------------------ */
+html, body, div, h1, h2, ul, li, dl, dd, dt, p {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+
+
+/* Import Fonts
+------------------------------------------------------------ */
+@import url(http://fonts.googleapis.com/css?family=Quattrocento);
+/* Custom Classes
+------------------------------------------------------------ */
+.group:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+}
+* html .group {
+	zoom: 1;
+} /* IE6 */
+*:first-child+html .group {
+	zoom: 1;
+} /* IE7 */
+/* General Styles
+------------------------------------------------------------ */
+
+html { 
+
+	overflow-y: scroll; /* always force a scrollbar in non-IE */
+	}
+#wrap {
+	max-width: 1200px;
+	min-height: 900px;
+	margin: 150px auto 0px;
+	padding: 1.5em 20px;
+	overflow: hidden;
+	position:relative;
+	z-index:999;
+}
+
+.none {
+	display:none;
+}
+
+.about {
+	padding-top:80px;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+h1 {
+	font-family: 'Quattrocento', serif;
+	font-size: 3em;
+	line-height: 1em;
+	text-transform: uppercase;
+	text-align: center;
+	border-top: 1px solid #000;
+	padding-top: 1em;
+	margin-bottom: 0.33333em;
+}
+h2 {
+	font-size: 1.5em;
+	line-height: 1em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 0.5em;
+	color: #444;
+}
+a {
+	color: #444;
+	text-decoration: underline;
+	-moz-transition: 0.4s all linear;
+	-webkit-transition: 0.4s all linear;
+	-o-transition: 0.4s all linear;
+	transition: 0.4s all linear;
+	outline-color: #aaa;
+}
+a:hover {
+	color: #4f0d4d;
+}
+#body_port .filter a{
+	font-size:12px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.demo-top {
+	margin-bottom: 0.35714em;
+	padding-bottom: 0.5em;
+	border-bottom: 3px solid #000;
+}
+.credits {
+	font-family: 'Quattrocento', serif;
+	font-size: 1.28571em;
+	line-height: 1.16667em;
+	text-align: center;
+	color: #444;
+	margin-bottom: 2.66667em;
+}
+.back-to-post {
+	border-top: 1px solid #000;
+	margin-bottom: 3em;
+}
+/* Filter */
+dl {
+	margin-bottom: 3em;
+	color: #777;
+}
+dt, dd {
+	float: left;
+}
+dt {
+	margin-right: 5px;
+}
+
+.address p {
+    font-size: 20px;
+}
+
+.filter li {
+	float: left;
+	margin:0px 3px 0px 0px !important;
+}
+.filter a {
+	padding: 5px 12px !important;
+	color: #fff;
+	font-size:10px;
+	text-decoration: none;
+	background:#0396d4;
+	border-radius:3px;
+	-o-border-radius:3px;
+	-ms-border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+.filter a:hover, .current a {
+	color: #eee;
+	background:rgb(1, 64, 105);
+}
+/* Portfolio Items */
+.portfolio li {
+	float: left;
+	margin-right: 98px;
+	margin-bottom: 2em;
+	border: 1px solid #ccc;
+	-moz-box-shadow: 0 5px 5px -3px #222;
+	-webkit-box-shadow: 0 5px 5px -3px #222;
+	box-shadow: 0 5px 5px -3px #222;
+}
+.portfolio li:nth-child(4n) {
+margin-right: 0;
+}
+.portfolio a {
+	display: block;
+	border: 3px solid #fff;
+	text-decoration: none;
+}
+.portfolio img {
+	width: 480px;
+	height: 335px;
+	display: block;
+	border: 1px solid #ccc;
+}
+.group {
+    float: left;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.portfolio_heading{
+	float:left;
+	width:100%;
+	margin-bottom:15px;
+}
+#body_port .group dt{
+    float: left;
+    font-size: 15px;
+	color:#fff;
+    padding: 5px 10px 0 0;
+}
+.port_heading{
+	color:#fff;
+}
+#body_port #slide-2, #body_port #slide-3{
+	display:none;
+}
+#body_port #slide-5, #body_port #slide-4 {
+	padding-top:0px !important;
+}
+#content h1 {
+    font-family: 'ArvoBold',Arial;
+    font-size: 50px;
+    margin: 0;
+}
+#body_port .line-left{
+	margin:81px 20px 0 0 !important;
+}
+#body_port .line-right{
+	margin:81px 0 0 20px !important;
+}
+#content h2{
+	border:none !important;
+	color:#fff !important;
+}
+#body_port #footer-content > h2 {
+    color: #fff !important;
+}
+
+#banner img {
+	float: left;
+	margin-left: 0px;
+}
+
+#banner ul {
+	float: right;
+	margin-right: 00px;
+}
+
+#banner ul  li {
+	font-size:17px;
+	float: left;
+	height: 80px;
+	padding-top: 35px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#banner ul  li a {
+	text-decoration: none;
+}
+
+#banner ul  li a:hover {
+	color: #d2a1d3
+}
