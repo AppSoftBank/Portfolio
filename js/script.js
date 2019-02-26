@@ -59,7 +59,7 @@ $(document).ready(function(){
 		e.preventDefault();
 	})
 
-	$(".filter li.all a").trigger("click");
+	$(".filter li.webdesign a").trigger("click");
 
 	$("#about").click(function (e) {
 
